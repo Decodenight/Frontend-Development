@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+}
+
+body{
+    background-color: rgba(10, 130, 177, 0.484);
+    background-size: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    
+}
+.card{
+    padding: 3px;
+    background: linear-gradient(135deg, #87ff77a8 10%, #ffffff 100%);
+    min-height: 350px;
+    max-width: 220px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 12px 0px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.image{
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    border-radius: 8px;
+}
+
+.ssn{
+    padding: 3px 10px 1px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ssn span{
+    border: 1px solid #7c7c7c5e;
+    border-radius: 20px;
+    padding: 1px 5px 2px 5px;
+    font-size: 12px;
+    color: #068989;
+    cursor: pointer;
+}
+
+.ssn span:hover{
+    background-color: #54fecda1;
+}
+
+.contain h1{
+    text-align: center;
+    padding:5px 8px 0px 8px;
+    font-size: medium;
+}
+
+.contain p{
+    min-width: 214px;
+    text-align: center;
+    padding: 5px 8px 6px 8px;
+    font-size: 13px;
+    color: gray;
+}
+
+button{
+    background-color: rgb(10, 130, 177);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    width: 95px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(10 130 177 / 71%);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}

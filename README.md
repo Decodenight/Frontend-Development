@@ -5,3 +5,6 @@ All frontend related practices.
 - Landing Page
 - Travel Cards
 - LogIn & SignUp pages
+
+## Html Css & Javascript Projects
+- Tic Tac Toe Game

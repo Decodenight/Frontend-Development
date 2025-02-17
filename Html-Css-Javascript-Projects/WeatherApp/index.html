@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <div class="main-contain">
+      <div class="container">
+        <h1>Weather Dashboard</h1>
+
+        <div class="search-container">
+          <input type="text" id="cityInput" placeholder="Enter city name" />
+          <button onclick="addCity()">Add City</button>
+        </div>
+
+        <div class="saved-cities">
+          <h2>Saved Cities</h2>
+          <div id="citiesList"></div>
+        </div>
+
+        <div class="weather-info" id="weatherInfo">
+          <h2>Weather Info</h2>
+          <div id="weatherDetails"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

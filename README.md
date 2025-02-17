@@ -8,3 +8,4 @@ All frontend related practices.
 
 ## Html Css & Javascript Projects
 - Tic Tac Toe Game
+- Weather App
